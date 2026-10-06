@@ -1,0 +1,22 @@
+# Data - never commit customer or loan-book data
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.parquet
+
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
